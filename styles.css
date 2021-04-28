@@ -5,15 +5,25 @@
 }
 
 body {
-  background-color: #222;
+  background-image: url(https://picsum.photos/id/1039/1200);
+  background-size: cover;
   color: white;
 }
 
 .landing {
   height: 100vh;
-  background-color: #555;
   display: grid;
   place-items: center;
+  background: rgba(20, 236, 18, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .timeline-container {
@@ -35,7 +45,10 @@ body {
 .timeline-items {
   justify-self: center;
   align-self: center;
-  background-color: #555;
+  background: rgba(20, 236, 18, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
   padding: 10%;
   border-radius: 20px;
   margin: 10px;
